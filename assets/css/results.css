@@ -1,0 +1,51 @@
+.results-month{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 20px;
+}
+
+.results-month__title, .results-recurrence__title{
+  width: 100%;
+  text-align: center;
+  font-size: 1.6rem;
+  color: var(--text-color-03);
+  margin-bottom: 5px;
+  border-bottom: 1px solid var(--text-color-02);
+}
+
+.results-month__points{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 4rem;
+  font-weight: 800;
+
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.results-month__secondary-title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 1.6rem;
+  margin-bottom: 5px;
+  width: 100%;
+  border-bottom: 1px solid var(--text-color-02);
+}
+
+.results-month__indexes, .results-recurrence__index{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 5rem;
+  font-weight: 800;
+  padding-bottom: 10px;
+}
+

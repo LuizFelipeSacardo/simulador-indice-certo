@@ -1,0 +1,134 @@
+.main{
+  margin: 1px 1px;
+  background-color: var(--background-color-01);  
+  margin: 1px 1px;
+
+  max-width: var(--max-width);
+}
+
+.simulation-month__card-title{
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--text-color-03);
+  text-align: center;
+  margin-bottom: 20px;
+  padding-top: 5px;  
+}
+
+.simulation-month__card-head, .simulation-month__card-body{
+  display: flex;
+  justify-content: space-between;
+}
+
+.simulation-month__card-head{
+  border-bottom: 1px solid var(--background-color-02);
+  margin-bottom: 8px;
+  padding-bottom: 5px;
+}
+
+.simulation-month__card-body{
+  margin-bottom: 5px;
+  height: 30px;
+}
+
+.simulation-month__card-line, .simulation-month__card-line-head{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 30%;
+  text-align: center;
+  margin-right: 1%;
+
+  font-weight: 600;
+}
+
+.simulation-month__card-line-head, .simulation-month__card-done-head, .simulation-month__card-quartile-head{
+  font-size: 1.2rem;  
+  font-weight: 600;
+}
+
+.simulation-month__card-done, .simulation-month__card-done-head{
+  width: 30%;
+  text-align: center;
+  margin-right: 1%;
+
+  border-width: 0.5px;
+  border-radius: 4px;
+}
+
+.simulation-month__card-quartile, .simulation-month__card-quartile-head{
+  width: 40%;
+  text-align: center;
+  margin-right: 1%;
+
+  border-width: 0.5px;
+  border-radius: 4px;
+}
+
+
+
+/*Recurrence Simulation*/
+
+.simulation-recurrence__card-head{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.simulation-recurrence__title{
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.simulation-recurrence__card-line-head, .simulation-recurrence__card-quartile-head{
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-bottom: 1px solid var(--text-color-02);
+}
+
+.simulation-recurrence__card-line-head{
+  width: 25%;
+  margin-bottom: 10px;
+}
+
+.simulation-recurrence__card-quartile-head{
+  width: 75%; 
+  margin-bottom: 10px;
+}
+
+.simulation-recurrence__card-body{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 5px;
+}
+
+.simulation-recurrence__card-line{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-weight: 600;
+
+  width: 25%;
+}
+
+.simulation-recurrence__card-index{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 14%;  
+  height: 25px;
+}
+
+
+@media screen and (min-width:480px) {
+  .main{
+    margin: auto;     
+  } 
+}
+
